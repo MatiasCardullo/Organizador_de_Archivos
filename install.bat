@@ -1,8 +1,8 @@
 echo off
 color 0a
 set carpetaTemp=%cd%
-cd "%userprofile%\Desktop"
 cls
+cd "%userprofile%\Desktop"
 echo Cargando Directorios
 if not exist "Celu\Telegram" (md "Celu\Telegram")
 if not exist "Celu\WhatsApp\Media" (md "Celu\WhatsApp\Media")
@@ -14,8 +14,10 @@ if not exist "Archivos\pdf" (md "Archivos\pdf")
 if not exist "Archivos\txt" (md "Archivos\txt")
 if not exist "Archivos\Office" (md "Archivos\Office")
 if not exist "Archivos\html" (md "Archivos\html")
+if not exist "Archivos\imagenes" (md "Archivos\imagenes")
+if not exist "Archivos\videos" (md "Archivos\videos")
 echo Cargando ejecutables
-cd %carpetaTemp%
+cd "%carpetaTemp%"
 xcopy /y start.bat "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 xcopy /y organizer.bat "%userprofile%"
 xcopy /y deleteSent.bat "%userprofile%\Desktop\Celu\Whatsapp\Media"
