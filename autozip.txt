@@ -1,3 +1,10 @@
+;El comentario siguiente contiene secuencias de órdenes para auto extracción
+
+Setup=install.bat
+TempMode
+Overwrite=1
+License=Organizador de Archivos
+{
 <!DOCTYPE html>
 <html>
 <body style="background-color:black">
@@ -7,3 +14,4 @@
 
 </body>
 </html>
+}
