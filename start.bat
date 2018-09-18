@@ -1,3 +1,3 @@
 echo off
-call %userprofile%\organizer.bat
-call %userprofile%\Desktop\Celu\WhatsApp\Media\deleteSent.bat
+call "%userprofile%\Desktop\Celu\celu.bat"
+call "%userprofile%\organizer.bat"
