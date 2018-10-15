@@ -1,3 +1,3 @@
 echo off
-call "%userprofile%\Desktop\Celu\celu.bat"
-call "%userprofile%\organizer.bat"
+call "%userprofile%\Organizer\celu.bat"
+call "%userprofile%\Organizer\organizer.bat"
